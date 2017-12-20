@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+
+body{
+	
+}
+
+#hotel{
+	font-size: 200px;
+}
+
+form {
+  display: table;
+}
+
+form div {
+  display: table-row;
+}
+
+form label, form input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+form label {
+  width: 50px;
+  padding-right: 5%;
+  text-align: center;
+}
+
+form input {
+  width: 300px;
+  align-items: center;
+}
+
+section {
+  width: 100%;
+  display: flex;
+}
+
+div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+div:last-child {
+  margin-right: 0;
+}
+
+section, div {
+  padding: 10px;
+}

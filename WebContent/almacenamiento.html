@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript">
+		function guardarLocal(){
+			
+			console.log("Guardando en local");
+			localStorage.setItem('ciudad',document.getElementById('mensaje').value);
+			
+		}
+		
+		
+		function guardarSesion(){
+			
+			console.log("Guardando sesion");
+
+		}
+	</script>
+</head>
+<body>
+	<h2>WEB STORAGE</h2>
+	<input type="text" id="mensaje" name="mensaje"><br/><br/>
+	<input type="button" value="Guardar Local" onclick="guardarLocal()">
+	<input type="button" value="Guardar Sesion" onclick="guardarSesion()">
+</body>
+</html>
